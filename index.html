@@ -1,178 +1,113 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Ishan Mishra</title>
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1" />
-
-	<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-
-	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Russo+One&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="default.css">
-	<link id="theme-style" rel="stylesheet" type="text/css" href="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ishan Mishra - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .contact-links a {
+            margin-right: 1rem;
+            color: #333;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <h1>Ishan Mishra</h1>
+        <p>B.Tech in Information Technology, Data Science Enthusiast</p>
+        <nav>
+            <a href="mailto:ishanmishra2772@gmail.com">Email</a>
+            <a href="https://linkedin.com/in/ishansmishra" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ishansmishra" target="_blank">GitHub</a>
+            <a href="https://www.kaggle.com/itsishan" target="_blank">Kaggle</a>
+            <a href="https://www.hackerrank.com/IshanMishra" target="_blank">Hackerrank</a>
+        </nav>
+    </header>
 
-	<section class="s1">
-		<div class="main-container">
-			<div class="greeting-wrapper">
-				<h1>Hi, I'm Ishan Mishra</h1>
-			</div>
+    <section>
+        <h2>About Me</h2>
+        <p>Hi, I'm Ishan Mishra, a final-year B.Tech student at Manipal University Jaipur with a specialization in Data Analytics. I'm passionate about leveraging data science, machine learning, and deep learning to solve real-world problems.</p>
+    </section>
 
+    <section>
+        <h2>Education</h2>
+        <p><strong>Manipal University Jaipur</strong> - B.Tech in Information Technology (2020 - 2024)</p>
+        <p>CGPA: 9.01 | 3x Dean’s Academic Excellence Awardee</p>
+    </section>
 
-			<div class="intro-wrapper">
-				<div class="nav-wrapper">
+    <section>
+        <h2>Experience</h2>
+        <p><strong>Data Science Intern</strong> - AiDash (April 2024 - Present)</p>
+        <ul>
+            <li>Assisted Fortune 500 companies with asset risk analysis, reducing data processing time by 70%.</li>
+            <li>Enhanced model accuracy by 35% using Vision Transformers for asset classification.</li>
+        </ul>
+        <p><strong>Research Intern</strong> - Carnegie Mellon University (April 2023 - July 2024)</p>
+        <ul>
+            <li>Automated microscope experiments, saving 100+ hours of manual work.</li>
+            <li>Analyzed video anomalies using embeddings for datasets like UCF-Crime.</li>
+        </ul>
+    </section>
 
-					<!-- Link around dots-wrapper added after tutorial video -->
-					<a href="index.html">
-						<div class="dots-wrapper">
-							<div id="dot-1" class="browser-dot"></div>
-							<div id="dot-2" class="browser-dot"></div>
-							<div id="dot-3" class="browser-dot"></div>
-						</div>
-					</a>
-					
+    <section>
+        <h2>Research Papers</h2>
+        <ul>
+            <li><strong>Image Encryption using Chaotic Logistic Maps</strong> - Published in Communications in Computer and Information Science. <a href="https://link.springer.com/chapter/10.1007/978-3-031-15784-4_7" target="_blank">View Paper</a></li>
+            <li><strong>Deep Video Analysis for Bacteria Genotype Prediction</strong> - Preprint available. <a href="https://doi.org/10.1101/2024.09.16.613253" target="_blank">View Paper</a></li>
+        </ul>
+    </section>
 
-					<ul id="navigation">
-						<li><a href="/random.html">Art And Stuff</a></li>
+    <section>
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>TextGPT:</strong> Developed a ChatGPT-like interface using LangChain and local LLMs to enhance accessibility for investment banking use cases.</li>
+            <li><strong>Kidney Disease Classification:</strong> Achieved 98.06% accuracy on medical image datasets, winning ACM MUJ Sigfest Datathon.</li>
+            <li><strong>Citibike Trips Visualization:</strong> Created interactive dashboards in Tableau for analyzing Citibike data trends.</li>
+        </ul>
+    </section>
 
-					</ul>
-				</div>
-
-				<div class="left-column">
-					<img id="profile_pic" src="images/ishan.jpg">
-					<h5 style="text-align: center;line-height: 0;">Personalize Theme</h5>
-
-					<div id="theme-options-wrapper">
-						<div data-mode="light" id="light-mode" class="theme-dot"></div>
-						<div data-mode="blue" id="blue-mode" class="theme-dot"></div>
-						<div data-mode="green" id="green-mode" class="theme-dot"></div>
-						<div data-mode="purple" id="purple-mode" class="theme-dot"></div>
-					</div>
-
-					<p id="settings-note">*Theme settings will be saved for<br>your next vist</p>
-				</div>
-
-				<div class="right-column">
-
-					<div id="preview-shadow">
-						<div id="preview">
-							<div id="corner-tl" class="corner"></div>
-							<div id="corner-tr" class="corner"></div>
-							<h3>What I Do</h3>
-							<p>I'm an aspiring dev, I like all things tech and art related .</p>
-							<div id="corner-br" class="corner"></div>
-							<div id="corner-bl" class="corner"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="s2">
-		<div class="main-container">
-
-			<div class="about-wrapper">
-				<div class="about-me">
-					<h4>More about me</h4>
-
-					<p>Hey, I'm Ishan, I graduated from Manipal Jaipur, I do research @XuLabs at CMU, I'm also currently an intern at AiDash.
-						Don't really push much here, but would love to talk.
-						I like tech, art, memes and other fun stuff. 
-						I'm always down to collaborate on projects and other cool ideas.
-					</p>.
-				</p>
-
-					<p>I do art from time to time.</p>
-
-
-					<hr>
-
-
-					<div id="skills">
-						<ul>
-							<li>Python</li>
-							<li>Django</li>
-							<li>JavaScript</li>
-							
-						</ul>
-
-						<ul>
-							<li>HTML</li>
-							<li>SQL</li>
-							<li>CSS</li>
-							<li>Leaning C++</li>
-							<li>Learning Heroku</li>
-							
-						</ul>
-
-					</div>
-
-				</div>
-
-			</div>
-
-		</div>
-	</section>
-
-	<section class="s1">
-		<div class="main-container">
-			<h3 style="text-align: center;">Some of my past projects</h3>
-
-			<div class="post-wrapper">
-
-				<div>
-					<div class="post">
-						
-						<div class="post-preview">
-							<h6 class="post-title">Attendance Management System</h6>
-							<p class="post-intro">Designed built & mantained an attendance managment system for my School</p>
-							
-						</div>
-					</div>
-				</div>
-				<div>
-					<div class="post">
-						
-						<div class="post-preview">
-							<h6 class="post-title">ARWork</h6>
-							<p class="post-intro">Worked on a project using JS and aframe</p>
-						</div>
-					</div>
-				</div>
-
-			</div>
-		</div>
-	</section>
-
-	<section class="s2">
-		<div class="main-container">
-			<a href=""></a>
-			<h3 style="text-align: center;">Get In Touch</h3>
-
-			<form id="contact-form">
-				<a name="contact"></a>
-
-				<label>Name</label>
-				<input class="input-field" type="text" name="name">
-
-				<label>Subject</label>
-				<input class="input-field" type="text" name="subject">
-
-				<label>Email</label>
-				<input class="input-field" type="text" name="email">
-
-				<label>Message</label>
-				<textarea class="input-field" name="message"></textarea>
-
-				<input id="submit-btn" type="submit" value="Send">
-			</form>
-		</div>
-	</section> 
-
-	<script type="text/javascript" src="script.js"></script>
+    <section>
+        <h2>Technical Skills</h2>
+        <p><strong>Languages:</strong> Python, SQL</p>
+        <p><strong>Developer Tools:</strong> Git, Visual Studio Code, Tableau, Jupyter Notebook</p>
+        <p><strong>Libraries:</strong> Pandas, NumPy, Matplotlib, TensorFlow, PyTorch, Scikit-learn</p>
+        <p><strong>Skills:</strong> Machine Learning, Deep Learning, Data Analysis</p>
+    </section>
 </body>
 </html>
