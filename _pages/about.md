@@ -23,9 +23,8 @@ redirect_from:
 
 ## 👨🏻‍🔬 Professional Experience
 Currently I am working as a **Student Researcher** at the Xu Labs, at the Dept. of Computational Biology under Prof. Min Xu working on **Gene Video Analysis**.
-Additionally, I worked as a **Student Researcher** at Manipal University Jaipur under Dr. Satyabrata Roy and Mr. Krishna Kumar working on **Cryptography Systems**.
-Additionally, I have professional experience working as an **Data Science Intern** at the AiDash Inc. \
-There I worked on various eospatial climate problems.
 
-## 📚 Teaching and Community Contributions
-To further contribute to the Machine Learning community, I have a [YouTube](https://www.youtube.com/@borismeinardus) and [Medium](https://medium.com/@boris.meinardus) channel where I publish educational Machine Learning content.
+Additionally, I worked as a **Student Researcher** at Manipal University Jaipur under Dr. Satyabrata Roy and Mr. Krishna Kumar working on **Cryptography Systems**.
+
+Additionally, I have professional experience working as an **Data Science Intern** at the AiDash Inc. \
+
