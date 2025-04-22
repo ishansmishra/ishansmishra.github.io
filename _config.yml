@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Ishan Mishra"
   pronouns         : # example: "she/her"  
-  bio              : "2024 Grad"
+  bio              : "I teach machines."
   location         : "Earth"
   employer         : "Manipal University Jaipur"
   uri              : # URL
@@ -77,12 +77,14 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  # books:
+  #   title: 'Books'
+  # manuscripts:
+  #   title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  preprint:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
