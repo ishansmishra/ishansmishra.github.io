@@ -124,5 +124,3 @@ Here's what the GRPO algorithm looks like in practice:
 GRPO is an elegant evolution in policy optimization. By leaning into **group-wise comparison**, it simplifies the RL pipeline and reduces overhead—while maintaining strong performance.
 
 ---
-
-Want to dive deeper into GRPO or implement it from scratch? Stay tuned for a follow-up post with code, eq
