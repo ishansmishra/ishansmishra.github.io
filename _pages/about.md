@@ -26,5 +26,4 @@ Currently I am working as a **Student Researcher** at the Xu Labs, at the Dept. 
 
 Additionally, I worked as a **Student Researcher** at Manipal University Jaipur under Dr. Satyabrata Roy and Mr. Krishna Kumar working on **Cryptography Systems**.
 
-Additionally, I have professional experience working as an **Data Science Intern** at the AiDash Inc. \
-
+Additionally, I have professional experience working as an **Data Science Intern** at the AiDash Inc. 
